@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Emergency Contact - Doctors Consultancy</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+    
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid p-5">
+          <a class="navbar-brand" href="#">
+            APKA APNA DOCTOR
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  width-12px active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">about us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/contact.html">contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/services.html">our services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">emergency service</a></li>
+                  <li><a class="dropdown-item" href="#">normal consultancy</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+              <button class="btn btn-danger"data-bs-toggle="modal"data-bs-target="#loginModal">login</button>
+              <button class="btn btn-danger"data-bs-toggle="modal"data-bs-target="#signupModal">sign-up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">login to Aapka Apna Doctor</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text"  class="form-control" id="Email">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signuppModalLabel">Sign-up to Aapka Apna Doctor</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <div class="mb-3 row">
+            <label for="Name" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+              <input type="text"  class="form-control" id="Name">
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="text"  class="form-control" id="Email">
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label"> Comfirm Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</div> -->
+    
+        <section class="emergency-info">
+            <h2>Emergency Information</h2>
+            <p>If you are experiencing a medical emergency, please seek immediate help by contacting your nearest emergency services or hospital.</p>
+            <h3>Emergency Contact Numbers:</h3>
+            <ul>
+                <li>Ambulance: <strong>911</strong></li>
+                <li>Local Hospital: <strong>(123) 456-7890</strong></li>
+                <li>Poison Control: <strong>(123) 456-7891</strong></li>
+            </ul>
+            <h3>Our On-Call Doctors:</h3>
+            <p>If you need immediate consultation with one of our doctors, please call:</p>
+            <ul>
+                <li>Dr. John Doe: <strong>(123) 456-7892</strong></li>
+                <li>Dr. Jane Smith: <strong>(123) 456-7893</strong></li>
+            </ul>
+            <h3>Our On Video Call Doctors:</h3>
+            <p>If you need immediate consultation with one of our doctors, please call:</p>
+            <ul>
+                <li>Dr. Sohn Doe: <strong>(123) 456-7452</strong></li>
+                <li>Dr. Mathur Smith: <strong>(123) 487-7893</strong></li>
+            </ul>
+            
+                <!-- <div class="chat-container">
+                    <div class="chat-header">
+                        <h2>Chat with us</h2>
+                        <button class="close-btn">&times;</button>
+                    </div>
+                    <div class="chat-body">
+                        <div class="message bot-message">
+                            <p>Hi there! How can we help you today?</p>
+                        </div>
+                        
+                    </div>
+                    <div class="chat-footer">
+                        <input type="text" placeholder="Type your message...">
+                        <button type="button">Send</button>
+                    </div>
+                </div> -->
+                
+           
+            
+
+            <p>For any other urgent matters, please reach out to our 24/7 support line:</p>
+            <p><strong>(123) 456-7894</strong></p>
+       
+   
+    <div class="chat-container">
+      <div class="chat-header">
+          <h2>Chat with us</h2>
+          <button class="close-btn">&times;</button>
+      </div>
+       <div class="chat-body"> 
+          <div class="message bot-message">
+              <p>Hi there! How can we help you today?</p>
+          </div>
+          
+      </div>
+      <div class="chat-footer">
+          <input type="text" placeholder="Type your message...">
+          <button type="button">Send</button>
+      </div>
+  </div> 
+  </section>
+
+
+
+    
+    <script src="emergency.js"></script>
+</body>
+</html>
